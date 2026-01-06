@@ -103,4 +103,3 @@ class AreaAbstraction {
 // Similarly an abstract often use as parent class where as a class declared as final never be extended
 // Such abstract class which contains only abstract method are known as pure abstract class
 // if abstract class contains abstract method and concrete method such class known as un-pure abstract class
-// 
