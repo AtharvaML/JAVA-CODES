@@ -29,10 +29,10 @@ public class ArrayDequeSamp {
 	for(Object x:v) {
 		System.out.println(x);
 	}
-//	Iterator it=v.iterator();
-//	while(it.hasNext()) {
-//		System.out.println(it.next());
-//	}
+	Iterator it=v.iterator();
+	while(it.hasNext()) {
+		System.out.println(it.next());
+	}
 //	ListIterator lit=v.listIterator(v.size());
 //	while(lit.hasPrevious()) {
 //		System.out.println(lit.previous());

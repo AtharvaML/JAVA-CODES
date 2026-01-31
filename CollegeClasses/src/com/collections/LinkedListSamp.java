@@ -21,13 +21,13 @@ public class LinkedListSamp {
 //	while(el.hasMoreElements()) {
 //		System.out.println(el.nextElement());
 //	}
-//	for(int i=0;i<v.size();i++) { 
-//		System.out.println(v.get(i));
-//	}
-//	
-//	for(Object x:v) {
-//		System.out.println(x);
-//	}
+	for(int i=0;i<v.size();i++) { 
+		System.out.println(v.get(i));
+	}
+	
+	for(Object x:v) {
+		System.out.println(x);
+	}
 	Iterator it=v.iterator();
 	while(it.hasNext()) {
 		System.out.println(it.next());
